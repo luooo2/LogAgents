@@ -1,0 +1,19 @@
+e:
+.\venv\Scripts\activate
+cd swarm
+cd logsarm
+cd ..
+.\.venv\Scripts\activate
+cd logswarm
+python test.py "parse the log file" "HDFS_2k.log" --output "third_result.json"
+python test.py "parse the log file" ".\data\HDFS_2k.log" --output ".\data\third_result.json"
+python test.py "parse the log file and help me find the anomaly" ".\data\HDFS_2k.log" --output ".\data\fourth_result.json"
+python test.py "parse the log file and help me find the anomaly" ".\data\HDFS_2k.log" --output ".\data\fifth_result.json"
+python test.py "parse the log file" --log_path ".\data\HDFS_2k.log" --output ".\data\fifth_result.json"fifth --log_format "<Date> <Time> <Pid> <Level> <Component>: <Content>" --log_regex "["
+    r'blk_(|-)[0-9]+' , # block id
+    r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)', # IP
+    r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers
+python test.py "parse the log file" --log_path ".\data\HDFS_2k.log" --output ".\data\fifth_result.json"fifth --log_format "<Date> <Time> <Pid> <Level> <Component>: <Content>" --log_regex [r'blk_(|-)[0-9]+' , # block id r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)', # IP r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers]
+python test.py "parse the log file" --log_path ".\data\HDFS_2k.log" --output ".\data\fifth_result.json"fifth --log_format "<Date> <Time> <Pid> <Level> <Component>: <Content>" --log_regex "[r'blk_(|-)[0-9]+' , # block id r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)', # IP r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers]"
+python test.py "help parse the log file according to log format and regex" --log_path ".\data\HDFS_2k.log" --output ".\data\fifth_result.json" --log_format "<Date> <Time> <Pid> <Level> <Component>: <Content>" --log_regex "[r'blk_(|-)[0-9]+' , # block id r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)', # IP r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers]"
+doskey /history >cmdlist.txt
