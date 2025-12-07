@@ -62,3 +62,16 @@ class SVM(object):
         precision, recall, f1 = metrics(y_pred, y_true)
         print('Precision: {:.3f}, recall: {:.3f}, F1-measure: {:.3f}\n'.format(precision, recall, f1))
         return precision, recall, f1
+
+    def decision_function(self, X):
+        """
+        Get the decision function values for the samples
+        """
+        return self.classifier.decision_function(X)
+
+    @property
+    def coef_(self):
+        """
+        Get the coefficients of the SVM model
+        """
+        return self.classifier.coef_

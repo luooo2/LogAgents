@@ -64,7 +64,7 @@ def run_demo_loop(
     starting_agent, context_variables=None, stream=False, debug=False
 ) -> None:
     cclient = OpenAI(base_url='https://api-inference.modelscope.cn/v1/',
-                     api_key='bf6dd301-0c38-4e27-8d8c-01942d2c2fb0')
+                     api_key='ms-3acb85d6-65f3-498d-88d2-fdfded95b9c4')
     # cclient = OpenAI(
     #     base_url="https://api.chatanywhere.tech/v1",
     #     api_key="sk-764egUqu5m6saadyCyiKn1xFewbcGD9CwVryxWkRBrhEZJl8",

@@ -1,0 +1,50 @@
+{
+  "summary_time_range": {
+    "start": "203533",
+    "end": "204731"
+  },
+  "exception_chain": [
+    {
+      "component": "HDFS Client",
+      "event": "Receive block (E5)",
+      "time": "203533"
+    },
+    {
+      "component": "NameNode",
+      "event": "Allocate block (E22)",
+      "time": "203533"
+    },
+    {
+      "component": "DataNode",
+      "event": "Write block (E7) - SocketTimeoutException",
+      "time": "203633"
+    },
+    {
+      "component": "DataNode",
+      "event": "PacketResponder termination (E11)",
+      "time": "203634"
+    },
+    {
+      "component": "DataNode",
+      "event": "EOFException (E10)",
+      "time": "203634"
+    },
+    {
+      "component": "DataNode",
+      "event": "Receive block failure (E14)",
+      "time": "204731"
+    },
+    {
+      "component": "DataNode",
+      "event": "Connection reset by peer (E7)",
+      "time": "204731"
+    }
+  ],
+  "main_root_cause": "网络连接中断导致HDFS块传输失败",
+  "injection_plan": {
+    "fault_type": "Network disruption",
+    "component": "Network",
+    "method": "Simulate network latency or packet loss",
+    "inject_time": "During block write operation"
+  }
+}

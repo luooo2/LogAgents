@@ -121,3 +121,15 @@ class FeatureExtractor(object):
         print('Test data shape: {}-by-{}\n'.format(X_new.shape[0], X_new.shape[1])) 
 
         return X_new
+
+    def get_feature_names(self):
+        """
+        获取特征名称列表
+
+        Returns:
+            list: 特征名称列表
+        """
+        if self.oov:
+            return self.events + ['OOV']
+        else:
+            return self.events

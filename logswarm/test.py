@@ -13,7 +13,7 @@ def pretty_print_messages(messages):
 
 def main():
     if len(sys.argv)<5:
-        print("Usage: python test.py <input_message> --log_path <log_path> [--output <output_file_path>]")
+        print("Usage: python anomaly_extraction.py <input_message> --log_path <log_path> [--output <output_file_path>]")
         sys.exit(1)
 
     # 获取命令行参数

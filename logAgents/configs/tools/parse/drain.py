@@ -7,6 +7,7 @@ def log_parse(context_variables: dict):
     print("parsing log……\n")
 
     file_log = context_variables.get("log_file")
+    print(context_variables)
     input_dir, log_file = split_file_path(file_log) # The input directory of log file & The input log file name
     output_dir = 'parse_result/'  # The output directory of parsing results
     log_format = context_variables.get("log_format")  # log format

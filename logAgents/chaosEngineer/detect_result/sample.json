@@ -1,0 +1,288 @@
+[
+  {
+    "BlockId": "blk_-3102267849859399193",
+    "TotalLogs": 8,
+    "FirstTimestamp": 203533,
+    "LastTimestamp": 204731,
+    "EventSequence": [
+      "E5",
+      "E5",
+      "E22",
+      "E7",
+      "E11",
+      "E10",
+      "E14",
+      "E7"
+    ],
+    "Logs": [
+      {
+        "Time": 203533,
+        "EventId": "E5",
+        "Content": "Receiving block blk_-3102267849859399193 src: /10.251.215.50:58322 dest: /10.251.215.50:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 147,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203533,
+        "EventId": "E5",
+        "Content": "Receiving block blk_-3102267849859399193 src: /10.251.215.50:51482 dest: /10.251.215.50:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 148,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203533,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000249_0/part-00249. blk_-3102267849859399193",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 33,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203633,
+        "EventId": "E7",
+        "Content": "writeBlock blk_-3102267849859399193 received exception java.net.SocketTimeoutException",
+        "EventTemplate": "writeBlock <*> received exception <*>",
+        "Pid": 147,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203634,
+        "EventId": "E11",
+        "Content": "PacketResponder 2 for block blk_-3102267849859399193 terminating",
+        "EventTemplate": "PacketResponder <*> for block <*> terminating",
+        "Pid": 190,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203634,
+        "EventId": "E10",
+        "Content": "PacketResponder blk_-3102267849859399193 2 Exception java.io.EOFException",
+        "EventTemplate": "PacketResponder <*> <*> Exception <*>",
+        "Pid": 190,
+        "Level": "INFO"
+      },
+      {
+        "Time": 204731,
+        "EventId": "E14",
+        "Content": "Exception in receiveBlock for block blk_-3102267849859399193 java.io.IOException: Connection reset by peer",
+        "EventTemplate": "Exception in receiveBlock for block <*> <*>",
+        "Pid": 148,
+        "Level": "INFO"
+      },
+      {
+        "Time": 204731,
+        "EventId": "E7",
+        "Content": "writeBlock blk_-3102267849859399193 received exception java.io.IOException: Connection reset by peer",
+        "EventTemplate": "writeBlock <*> received exception <*>",
+        "Pid": 148,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_-5087939924532795057",
+    "TotalLogs": 2,
+    "FirstTimestamp": 203810,
+    "LastTimestamp": 203810,
+    "EventSequence": [
+      "E5",
+      "E22"
+    ],
+    "Logs": [
+      {
+        "Time": 203810,
+        "EventId": "E5",
+        "Content": "Receiving block blk_-5087939924532795057 src: /10.251.202.181:49239 dest: /10.251.202.181:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 256,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203810,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000028_0/part-00028. blk_-5087939924532795057",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 26,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_188682839063125077",
+    "TotalLogs": 2,
+    "FirstTimestamp": 203816,
+    "LastTimestamp": 203816,
+    "EventSequence": [
+      "E5",
+      "E22"
+    ],
+    "Logs": [
+      {
+        "Time": 203816,
+        "EventId": "E5",
+        "Content": "Receiving block blk_188682839063125077 src: /10.251.197.226:44230 dest: /10.251.197.226:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 330,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203816,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000259_0/part-00259. blk_188682839063125077",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 33,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_1483694219884556894",
+    "TotalLogs": 2,
+    "FirstTimestamp": 203844,
+    "LastTimestamp": 203844,
+    "EventSequence": [
+      "E5",
+      "E22"
+    ],
+    "Logs": [
+      {
+        "Time": 203844,
+        "EventId": "E5",
+        "Content": "Receiving block blk_1483694219884556894 src: /10.251.91.84:59298 dest: /10.251.91.84:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 277,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203844,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000363_0/part-00363. blk_1483694219884556894",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 27,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_7648436334209344608",
+    "TotalLogs": 4,
+    "FirstTimestamp": 203928,
+    "LastTimestamp": 203932,
+    "EventSequence": [
+      "E22",
+      "E5",
+      "E5",
+      "E7"
+    ],
+    "Logs": [
+      {
+        "Time": 203928,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000327_0/part-00327. blk_7648436334209344608",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 29,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203928,
+        "EventId": "E5",
+        "Content": "Receiving block blk_7648436334209344608 src: /10.251.105.189:56560 dest: /10.251.105.189:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 307,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203928,
+        "EventId": "E5",
+        "Content": "Receiving block blk_7648436334209344608 src: /10.251.105.189:43015 dest: /10.251.105.189:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 316,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203932,
+        "EventId": "E7",
+        "Content": "writeBlock blk_7648436334209344608 received exception java.io.IOException: Could not read from stream",
+        "EventTemplate": "writeBlock <*> received exception <*>",
+        "Pid": 307,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_5482154336643183343",
+    "TotalLogs": 2,
+    "FirstTimestamp": 203940,
+    "LastTimestamp": 203941,
+    "EventSequence": [
+      "E5",
+      "E22"
+    ],
+    "Logs": [
+      {
+        "Time": 203940,
+        "EventId": "E5",
+        "Content": "Receiving block blk_5482154336643183343 src: /10.251.66.63:40022 dest: /10.251.66.63:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 317,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203941,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000124_0/part-00124. blk_5482154336643183343",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 34,
+        "Level": "INFO"
+      }
+    ]
+  },
+  {
+    "BlockId": "blk_-5447417104355795463",
+    "TotalLogs": 4,
+    "FirstTimestamp": 203943,
+    "LastTimestamp": 203948,
+    "EventSequence": [
+      "E5",
+      "E22",
+      "E5",
+      "E7"
+    ],
+    "Logs": [
+      {
+        "Time": 203943,
+        "EventId": "E5",
+        "Content": "Receiving block blk_-5447417104355795463 src: /10.250.7.146:53532 dest: /10.250.7.146:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 305,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203943,
+        "EventId": "E22",
+        "Content": "BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000341_0/part-00341. blk_-5447417104355795463",
+        "EventTemplate": "BLOCK* NameSystem.allocateBlock:<*>",
+        "Pid": 30,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203944,
+        "EventId": "E5",
+        "Content": "Receiving block blk_-5447417104355795463 src: /10.250.7.146:46503 dest: /10.250.7.146:50010",
+        "EventTemplate": "Receiving block <*> src: /<*> dest: /<*>",
+        "Pid": 323,
+        "Level": "INFO"
+      },
+      {
+        "Time": 203948,
+        "EventId": "E7",
+        "Content": "writeBlock blk_-5447417104355795463 received exception java.io.IOException: Could not read from stream",
+        "EventTemplate": "writeBlock <*> received exception <*>",
+        "Pid": 305,
+        "Level": "INFO"
+      }
+    ]
+  }
+]
